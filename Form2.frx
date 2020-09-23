@@ -1,0 +1,26 @@
+ÿ’TRACEROUTE
+
+(tras´rowt) (n.) A utility that traces a packet from your 
+computer to an Internet host, showing how many hops the 
+packet requires to reach the host and how long each hop 
+takes. If you're visiting a Web site and pages are 
+appearing slowly, you can use traceroute to figure out 
+where the longest delays are occurring. 
+The original traceroute is a UNIX utility, but nearly all 
+platforms have something similar. Windows includes a 
+traceroute utility called tracert. In Windows, you can run 
+tracert by selecting Start->Run, and then entering tracert 
+followed by the domain name of the host. For example: 
+
+tracert www.pcwebopedia.com 
+
+Traceroute utilities work by sending packets with low 
+time-to-live (TTL) fields. The TTL value specifies how 
+many hops the packet is allowed before it is returned. 
+When a packet can't reach its destination because the 
+TTL value is too low, the last host returns the packet and 
+identifies itself. By sending a series of packets and 
+incrementing the TTL value with each successive packet, 
+traceroute finds out who all the intermediary hosts are.
+
+--Information from www.webopedia.com--
